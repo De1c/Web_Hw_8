@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 mongoengine = "*"
 pymongo = {extras = ["gssapi", "snappy", "srv", "tls"], version = "*"}
+redis = "*"
+redis-lru = "*"
+pika = "*"
 
 [dev-packages]
 
